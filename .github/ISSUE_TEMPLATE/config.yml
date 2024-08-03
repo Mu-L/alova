@@ -8,6 +8,14 @@ contact_links:
     url: https://github.com/orgs/alovajs/discussions/new?category=q-a
     about: Use GitHub discussions for your questions and discussions.
 
+  - name: "\U0001F41E Extension Bug Report"
+    url: https://github.com/alovajs/devtools/issues/new
+    about: vscode extension bug report.
+
+  - name: "\U0001F680 Extension Feature Request"
+    url: https://github.com/alovajs/devtools/issues/new
+    about: vscode extension feature request.
+
   - name: Official Documentation
     url: https://alova.js.org
     about: Before submitting a bug, you can first look for a solution through the official documentation

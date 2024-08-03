@@ -1,0 +1,61 @@
+# See https://github.com/actions/labeler
+
+'example':
+  - examples/**/*
+
+'🚨 action':
+  - .github/workflows/**
+
+'alova':
+  - packages/alova/**
+
+'adapter-axios':
+  - packages/adapter-axios/**
+
+'adapter-graphql':
+  - packages/adapter-graphql/**
+
+'adapter-mock':
+  - packages/adapter-mock/**
+
+'adapter-superagent':
+  - packages/adapter-superagent/**
+
+'adapter-taro':
+  - packages/adapter-taro/**
+
+'adapter-uniapp':
+  - packages/adapter-uniapp/**
+
+'adapter-xhr':
+  - packages/adapter-xhr/**
+
+'angular':
+  - packages/angular/**
+
+'ark-ts':
+  - packages/ark-ts/**
+
+'client':
+  - packages/client/**
+
+'lit':
+  - packages/lit/**
+
+'miniprogram':
+  - packages/miniprogram/**
+
+'psc':
+  - packages/psc/**
+
+'server':
+  - packages/server/**
+
+'shared':
+  - packages/shared/**
+
+'stencil':
+  - packages/stencil/**
+
+'vue-options':
+  - packages/vue-options/**

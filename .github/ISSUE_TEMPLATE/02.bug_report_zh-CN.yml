@@ -1,9 +1,9 @@
 name: "\U0001F41E 问题反馈"
 description: 使用中文报告问题，帮助 alova 变得更好
-title: "[Bug]: "
+title: '[Bug]: '
 labels:
-  - "bug:need-confirm"
-  - "lang:chinese"
+  - 'bug:need-confirm'
+  - 'lang:chinese'
 assignees:
   - MeetinaXD
 body:
@@ -24,7 +24,7 @@ body:
     id: is-this-a-bug
     attributes:
       label: 这是否是一个 Bug？
-      description: ":warning: 如果你要报告一个提案，或有使用上的困惑，请返回 Issue 新建页面查看其他选项。"
+      description: ':warning: 如果你要报告一个提案，或有使用上的困惑，请返回 Issue 新建页面查看其他选项。'
       options:
         - label: 我已经确认我要报告的是一个 Bug
           required: true
@@ -33,7 +33,7 @@ body:
     id: have-been-report-before
     attributes:
       label: 这个问题是否已经存在？
-      description: ":warning: 提交前请在 Issue 中搜索你要提交的问题是否已经存在"
+      description: ':warning: 提交前请在 Issue 中搜索你要提交的问题是否已经存在'
       options:
         - label: 我已经确认这个 Issue 没有被报告过
           required: true
@@ -57,6 +57,9 @@ body:
         - 'React'
         - 'Vue'
         - 'Svelte'
+        - 'Nodejs'
+        - 'Deno'
+        - 'Bun'
         - '其他框架'
     validations:
       required: true
